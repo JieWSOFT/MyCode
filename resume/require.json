@@ -21,7 +21,7 @@
     },
     "preserveLicenseComments": false,
     "removeCombined": true,
-    "dir": "jsmin&&css/",
+    "dir": "jsmincss/",
     "baseUrl": "js/",
     "paths": {
       "jqurey": "../lib/jquery.min",
