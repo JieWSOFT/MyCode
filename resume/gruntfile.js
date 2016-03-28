@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 expand: true,
                 cwd: 'sass/',
                 src: ['*.sass'],
-                dest: 'jsmin&css/',
+                dest: 'jsmincss/',
                 ext: '.css'
             }
         },
