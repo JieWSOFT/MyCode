@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhingConfiguration">
-    <phingPath>D:/Downloads/phing-latest_2.phar</phingPath>
-  </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="5.6.0" />
-  <component name="PhpServers">
-    <option name="servers">
-      <server deployment_server="f8fc6a3f-3052-48cf-a484-b40d9a2788ae" host="localhost" name="localhost" use_path_mappings="true" validation_dir="D:\Source\Lab" />
-    </option>
-  </component>
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings />
     </phpunit_settings>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="LocalPHP5.6" />
-  <component name="ProjectDictionaryState">
-    <dictionary name="Administrator" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -68,16 +55,9 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="SqlDialectMappings">
-    <file url="PROJECT" dialect="MySQL" />
-  </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="true" />
   </component>
   <component name="VagrantSettings">
     <option name="instanceFolder" value="" />
