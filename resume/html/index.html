@@ -5,12 +5,13 @@
     <title>我的个人简历</title>
     <link rel="stylesheet" href="../jsmincss/index.css">
 </head>
-<body>
+<body id="index">
 <div id="myContent">
-    <div class="section ">
+    <div class="section " data-anchor="page1">
         <div class="page">
             <div id="resume1" class="resume1">
                 <div class="image-wrap">
+                    <img src="../image/touxiang2.jpg"/>
                     <img src="../image/touxiang.jpg"/>
                 </div>
                 <p class="motto">天降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行指乱其所为，所以动心忍性，曾益其所不能。</p>
@@ -23,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="section ">
+    <div class="section " data-anchor="page2">
         <div class="page">
             <div class="about" id="about">
                 <p>关于我</p>
@@ -63,7 +64,7 @@
             </div>
         </div>
     </div>
-    <div class="section ">
+    <div class="section " data-anchor="page3">
         <div class="page">
             <div id="skill" class="skill">
                 <p>专业技能</p>
@@ -80,7 +81,7 @@
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section" data-anchor="page4">
         <div class="page">
             <div id="experience" class="experience">
                 <p>我的经验</p>
@@ -88,10 +89,16 @@
                 <p>自2015.5.28号进去职场，开始了Web前端的学习生涯。这是我的作品。</p>
                 <div id="banner" class="banner">
                     <ul>
-                        <li><img src="../image/undercover.png"/></li>
-                        <li><img src="../image/draw.png"/></li>
-                        <li><img src="../image/mafia.png"/></li>
-                        <li><img src="../image/werewolf.png"/></li>
+                        <li><img src="../image/undercover.png" data-bind="click: goToGame"
+                                 data-game="http://g.xjshift.com/undercover"/></li>
+                        <li><img src="../image/draw.png" data-bind="click: goToGame"
+                                 data-game="http://g.xjshift.com/draw"/>
+                        </li>
+                        <li><img src="../image/mafia.png" data-bind="click: goToGame"
+                                 data-game="http://g.xjshift.com/mafia"/>
+                        </li>
+                        <li><img src="../image/werewolf.png" data-bind="click: goToGame"
+                                 data-game="http://g.xjshift.com/werewolf"/></li>
                     </ul>
                 </div>
             </div>
@@ -99,15 +106,15 @@
     </div>
 </div>
 <ul id="menu" class="nav-bar">
-    <li data-menuanchor="page1" class="active"><a href="#page1"></a></li>
-    <li data-menuanchor="page2"><a href="#page1"></a></li>
-    <li data-menuanchor="page3"><a href="#page1"></a></li>
-    <li data-menuanchor="page4"><a href="#page1"></a></li>
+    <li data-menuanchor="page1" class="active"></li>
+    <li data-menuanchor="page2"></a></li>
+    <li data-menuanchor="page3"></a></li>
+    <li data-menuanchor="page4"></a></li>
 </ul>
 </body>
-<script src="../lib/requirejs-2.1.20.js"></script>
+<script src="../lib/requirejs-2.1.20.js" crossorigin="anonymous"></script>
 <script>
-    requirejs(['../jsmincss/common.js'], function() {
+    requirejs(['../jsmincss/common.js'], function () {
         requirejs(['../jsmincss/main.js']);
     });
 </script>

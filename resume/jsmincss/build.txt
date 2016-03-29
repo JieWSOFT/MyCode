@@ -9,4 +9,5 @@ unSlide.js
 
 main.js
 ----------------
+indexViewModel.js
 main.js
