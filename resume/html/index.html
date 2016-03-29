@@ -2,9 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>我的个人简历</title>
+    <link rel="stylesheet" href="../jsmincss/index.css">
 </head>
 <body>
-
+<div id="myContent">
+    <div class="section ">
+        <div class="page">
+            <div id="resume1" class="resume1">
+                <div class="image-wrap">
+                    <img src="../image/touxiang.jpg"/>
+                </div>
+                <p class="motto">天降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行指乱其所为，所以动心忍性，曾益其所不能。</p>
+                <div class="introduction">
+                    <p>王杰</p>
+                    <p>23岁</p>
+                    <p>Web前段开发工程师</p>
+                    <p>739535054@qq.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section ">
+        <div class="page">
+            <div class="about" id="about">
+                <p>关于我</p>
+                <p>· About me ·</p>
+                <div class="about-list-content">
+                    <div class="about-list">
+                        <div class="image-wrap">
+                            <img src="../image/education.png"/>
+                        </div>
+                        <div class="about-list-cn">学历<p>本科</p></div>
+                    </div>
+                    <div class="about-list">
+                        <div class="image-wrap">
+                            <img src="../image/age.png"/>
+                        </div>
+                        <div class="about-list-cn">年龄<p>23岁</p></div>
+                    </div>
+                    <div class="about-list">
+                        <div class="image-wrap">
+                            <img src="../image/location.png"/>
+                        </div>
+                        <div class="about-list-cn">坐标<p>上海</p></div>
+                    </div>
+                    <div class="about-list">
+                        <div class="image-wrap">
+                            <img src="../image/status.png" style="padding-top: 7px;width: 60px"/>
+                        </div>
+                        <div class="about-list-cn">状态<p>离职</p></div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p>2015年毕业于南京理工大学泰州科技学院，现就职于上海小鲸信息科技有限公司。</p>
+                    <p>喜欢上GitHub、MDN、Stack Overflow等论坛上看一些新的技术</p>
+                    <p>目前正在看You don't know Js这本js书籍</p>
+                    <p>将来准备对NodeJs、gulp、less、java有更加深入的了解</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section ">
+        <div class="page">
+            <div id="skill" class="skill">
+                <p>专业技能</p>
+                <p>· SKILL ·</p>
+                <p>前段技术日新月异，知识的深度和广度都很重要。最近我正在通过You don't know
+                    Js来巩固自己对于js的编译原理、作用域、原型链等知识点。同时还在自己通过官方文档来学习java、php等知识</p>
+                <ul class="skill-list-wrap">
+                    <li><img src="../image/java.png"/></li>
+                    <li><img src="../image/js.png"/></li>
+                    <li><img src="../image/html.png"/></li>
+                    <li><img src="../image/css.png"/></li>
+                    <li><img src="../image/php.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="page">
+            <div id="experience" class="experience">
+                <p>我的经验</p>
+                <p>· EXPERIENCE ·</p>
+                <p>自2015.5.28号进去职场，开始了Web前端的学习生涯。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<ul id="menu" class="nav-bar">
+    <li data-menuanchor="page1" class="active"><a href="#page1"></a></li>
+    <li data-menuanchor="page2"><a href="#page1"></a></li>
+    <li data-menuanchor="page3"><a href="#page1"></a></li>
+    <li data-menuanchor="page4"><a href="#page1"></a></li>
+</ul>
 </body>
+<script src="../lib/requirejs-2.1.20.js"></script>
+<script>
+    requirejs(['../jsmincss/common.js'], function() {
+        requirejs(['../jsmincss/main.js']);
+    });
+</script>
 </html>
