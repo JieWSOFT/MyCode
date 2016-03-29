@@ -1,6 +1,0 @@
-
-main.js
-----------------
-jqurey.js
-kncokout.js
-main.js
