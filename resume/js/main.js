@@ -20,5 +20,8 @@ require(['jquery', 'knockout'], function($, ko) {
                 },
             });
         });
+        $(function() {
+            $('#banner').unslider();
+        });
     });
 });

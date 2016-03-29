@@ -28,8 +28,7 @@
       "knockout": "../lib/knockout-3.3.0",
       "fullPage": "../lib/jquery.fullPage",
       "erasing": "../lib/jquery.erasing",
-      "touchSlide": "../lib/TouchSlide.1.1",
-      "unSlide": "../lib/unslide.js"
+      "unSlide": "../lib/unslide"
     },
     "modules": [
       {
